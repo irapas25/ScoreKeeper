@@ -1,0 +1,76 @@
+section{
+    background-color: beige;
+    width: 600px;
+}
+
+.image img{
+    width: 600px;
+}
+.gametitle{
+    border: 3px solid gray;
+    background-color: rgb(215, 213, 213);
+    border-radius: 8px;
+}
+.gametitle h1{
+    text-align: center;
+}
+.midgame{
+    text-align: center;
+    border: 3px solid gray;
+    background-color: rgb(215, 213, 213);
+    border-radius: 8px;
+}
+#gamelength{
+    width: 35px;
+    height: 25px;
+    border-radius: 8px;  
+}
+.lastpart{
+    text-align: center;
+    border: 3px solid gray;
+    background-color: rgb(215, 213, 213);
+    border-radius: 8px;
+}
+.reset{
+    background-color: red;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.reset:hover{
+    border: 4px solid green;
+    border-radius:6px ;
+}
+
+.pone{
+    background-color:blue;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.pone:hover{
+    border: 4px solid green;
+    border-radius:6px ;
+}
+
+
+.ptwo{
+    background-color: rgb(1, 1, 101);
+    color: white;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.ptwo:hover{
+    border: 4px solid green;
+    border-radius:6px ;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(https://images.unsplash.com/photo-1669041124233-295fb1ab1f4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80) ;
+}
